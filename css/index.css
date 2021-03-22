@@ -1,0 +1,294 @@
+/*  Applying ClearFix */
+.clearFix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Centering Element */
+.masterCenterHeader {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.masterCenterBody {
+    width: 960px;
+    margin: 60px auto;
+}
+
+.masterCenterFooter {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Header Starts Here */
+.header {
+    background-color: #4c8f96;
+}
+
+/* Logo Box */
+.logo {
+    padding: 30px;
+    width: 200px;
+    background-color: #1a1e32;
+    float: left;
+    margin-top: 45px;
+    position: relative;
+    top: 10px;
+}
+
+.logo span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+    margin: 0;
+}
+
+/* Navigation Links */
+.navigation {
+    float: right;
+    margin-top: 105px;
+    list-style-type: none;
+}
+
+.navigation li {
+    float: left;
+    background-color: #1b2130;
+    margin-left: 20px;
+    padding: 5px 13px;
+    border-radius: 4px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.navigation .home {
+    background-color: #335f64;
+}
+/* Header Ends Here */
+
+
+/* Website Body Starts Here */
+
+/* Part-1/Row One. Big Banner Box Starts Here */
+.bigBanner {
+    width: 956px;
+    height: 357px;
+    background-color: white;
+    border: 2px solid #5fb3bd;
+}
+
+.bigBanner img {
+    float: left;
+}
+
+.bigBanner h1 {
+    float: right;
+    font-family: 'Paytone One', serif;
+    font-weight: 900;
+    margin-right: 140px;
+    margin-top: 100px;
+    font-size: 37px;
+}
+/* Part-1/Row One. Big Banner Box Ends Here */
+
+/* Part-2/Row Two. Four Boxes in a Row Starts Here */
+.fourBoxesInRow {
+    margin-top: 50px;
+}
+
+.fourBoxesInRow .box {
+    width: 220px;
+    float: left;
+}
+
+.fourBoxesInRow img {
+    border: 5px solid #5fb3bd;
+    border-radius: 5px;
+}
+
+.fourBoxesInRow h3 {
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;  
+}
+
+.fourBoxesInRow p {
+    font-size: 13px;
+    margin-top: 5px;
+    font-family:  Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.fourBoxesInRow .boxRowMargin {
+    margin-right: 26px;
+}
+/* Part-2/Row Two. Four Boxes in a Row Ends Here */
+
+/* Part-3/Row Three. Three Boxes (1 Long Box on Left, 2 Small Boxes on Right) Starts Here */
+.threeBoxes {
+    margin-top: 40px;
+}
+
+/* Left/Long Box */ 
+.leftBox {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 420px;
+    border-radius: 5px;
+    border: 5px solid #5fb3bd;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+.leftBox .featured {
+    background-color: #1a1e32;
+    width: 114px;
+    padding: 13px 27px;
+    position: relative;
+    top: -17px;
+    margin-bottom: 5px;
+}
+
+.leftBox .featured span{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    color: white;
+    letter-spacing: 3px; 
+}
+
+.leftBox img {
+    float: left;
+    margin-bottom: 25px;
+}
+
+.leftBox .heading {
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.leftBox .paragraph {
+    clear: left;
+    margin-bottom: 30px;
+    line-height: 23px;
+    font-size: 13px;
+    word-spacing: 1px;
+}
+
+/* Right Small Boxes  */
+.rightBoxes {
+    float: right;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Right Box Top */
+.rightBoxes .box1 {
+    background-color: #519194;
+    border-radius: 5px;
+    border: 5px solid #5fb3bd;
+    width: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rightBoxes .box1 .hairstyle {
+    background-color: #1a1e32;
+    width: 117px;
+    padding: 13px 27px;
+    position: relative;
+    top: -17px
+}
+
+.rightBoxes .box1 .hairstyle span{
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    color: white;
+    letter-spacing: 3px; 
+}
+
+.rightBoxes .paragraph {
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 13px;
+    word-spacing: 1px;
+}
+
+.rightBoxes .box1 .mike {
+    text-align: right;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+/* Right Box Bottom */
+.box2 {
+    width: 460px;
+    height: 215px;
+    border: 5px solid #5fb3bd;
+    background-color: #519194;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.box2 img {
+    float: left;
+    position: relative;
+    top: -15px;
+}
+
+.box2 p {
+    width: 250px;
+    float: right;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+/* Part-3/Row Three. Three Boxes (1 Long Box on Left, 2 Small Boxes on Right) Ends Here */
+
+/* Website Body Ends Here */
+
+/* Footer Starts Here */
+.footer {
+    background-color: #4c8f96;
+    height: 100px;
+}
+
+.masterCenterFooter p {
+    float: left;
+    margin: 43px 0px 38px 380px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.socialMedia {
+    background-color: #387a82;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 168px;
+    height: 43px;
+    float: right;
+    padding-top: 20px;
+    padding-left: 17px;
+} 
+
+.socialMedia a{
+    text-decoration: none;
+}
+
+.socialMedia span {
+    color: #1b6068;
+    font-size: 25px;
+    margin-left: 10px;
+}
+/* Footer Ends Here */
